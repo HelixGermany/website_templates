@@ -17,6 +17,8 @@ body{
     align-items: center;
     border-bottom: solid 3px white;
     position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    ;
 }
 
 #logo_header{
@@ -31,7 +33,7 @@ body{
     text-decoration: none;
     color: white;
     font-weight: 550;
-    font-size: 20px;
+    font-size: 130%;
 }
 
 #nav a:hover{
@@ -48,6 +50,10 @@ ul{
 li{
     display: inline-block;
     margin:0 30px;
+}
+
+#banner{
+    width: 	100%;
 }
 
 .section h1{
