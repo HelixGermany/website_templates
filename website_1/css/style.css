@@ -2,6 +2,12 @@ html {
     margin: 0;
     padding: 0;
     background-color: rgb(44, 44, 44);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
 
 #head {
@@ -9,6 +15,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: solid 3px white;
 }
 
 #logo_header{
@@ -19,8 +26,15 @@ html {
 
 #nav a {
     display: block;
-    padding: 1em;
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+    font-size: 20px;
+}
 
+#nav a:hover{
+    color: rgb(160, 160, 160);
 }
 
 
@@ -32,11 +46,12 @@ ul{
 
 li{
     display: inline-block;
-    margin:0 20px;
+    margin:0 30px;
 }
 
-li a{
-    text-decoration: none;
+.section h1{
+    text-transform: uppercase;
     color: white;
-    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
 }
