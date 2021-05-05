@@ -5,45 +5,38 @@ html {
 }
 
 #head {
-    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logo_header{
     width: 8%;
+    position: relative;
+    float: left;
 }
+
+#nav a {
+    display: block;
+    padding: 1em;
+
+}
+
 
 ul{
     display: inline-block;
     text-transform: uppercase;
+    
 }
 
 li{
     display: inline-block;
-    float: left;
     margin:0 20px;
 }
 
 li a{
     text-decoration: none;
     color: white;
-}
-
-#home{
-
-    
-}
-
-#about_us{
-
-
-}
-
-#service{
-
-
-}
-
-#contact{
-
-
+    font-weight: 700;
 }
