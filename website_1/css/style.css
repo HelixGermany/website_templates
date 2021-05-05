@@ -1,7 +1,17 @@
 html {
     margin: 0;
     padding: 0;
+    background-color: rgb(44, 44, 44);
+}
 
+.head {
+    display: inline-block;
+}
 
+.logo_header{
+    width: 100px;
+}
 
+li{
+    
 }
