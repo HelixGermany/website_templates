@@ -4,12 +4,32 @@ html {
     background-color: rgb(44, 44, 44);
 }
 
-.head {
+#head {
     display: inline-block;
 }
 
-.logo_header{
+#logo_header{
     width: 100px;
+}
+
+#home{
+
+    
+}
+
+#about_us{
+
+
+}
+
+#service{
+
+
+}
+
+#contact{
+
+
 }
 
 li{
