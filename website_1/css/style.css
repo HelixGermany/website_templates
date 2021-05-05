@@ -5,11 +5,27 @@ html {
 }
 
 #head {
-    display: inline-block;
+    
 }
 
 #logo_header{
-    width: 100px;
+    width: 8%;
+}
+
+ul{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+li{
+    display: inline-block;
+    float: left;
+    margin:0 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
 }
 
 #home{
@@ -30,8 +46,4 @@ html {
 #contact{
 
 
-}
-
-li{
-    
 }
