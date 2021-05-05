@@ -16,6 +16,7 @@ body{
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 3px white;
+    position: fixed;
 }
 
 #logo_header{
@@ -54,4 +55,5 @@ li{
     color: white;
     font-size: 18px;
     text-align: center;
+    padding: 100px 0 0 0;
 }
